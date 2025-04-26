@@ -1,0 +1,153 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base container */
+.container {
+  background-color: #f3f6fd; /* Light bluish */
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a2a72;
+  margin-bottom: 50px;
+}
+
+/* Content grid */
+.content {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left-section {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+}
+
+/* Query box */
+.query-box label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #2a2a72;
+}
+
+.query-box input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.query-box input:focus {
+  border-color: #5b6df6;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #5b6df6;
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #4051d0;
+}
+
+/* Upload box */
+.upload-box {
+  margin-top: 50px;
+}
+
+.upload-box p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #2a2a72;
+}
+
+.upload-area {
+  background-color: #f9f9ff;
+  border: 2px dashed #b0b0d0;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+  background-color: #eef2ff;
+}
+
+.upload-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.upload-formats {
+  font-size: 1rem;
+  color: #5a5a89;
+}
+
+.upload-instruction {
+  font-size: 0.9rem;
+  color: #8a8aa0;
+  margin-top: 8px;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.right-section h2 {
+  font-size: 2rem;
+  color: #2a2a72;
+  margin-bottom: 25px;
+}
+
+/* Summary box */
+.summary-box {
+  background-color: #fff9e6;
+  border-radius: 16px;
+  padding: 25px;
+  height: 100%;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.summary-box p {
+  margin-bottom: 18px;
+  color: #4b4b4b;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
